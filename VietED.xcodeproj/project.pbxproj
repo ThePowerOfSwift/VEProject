@@ -1,0 +1,1042 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B069C711C2BCE3B00CF2F99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B069C701C2BCE3B00CF2F99 /* AppDelegate.swift */; };
+		0B069C761C2BCE3B00CF2F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B069C741C2BCE3B00CF2F99 /* Main.storyboard */; };
+		0B069C791C2BCE3B00CF2F99 /* VietED.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B069C771C2BCE3B00CF2F99 /* VietED.xcdatamodeld */; };
+		0B069C7B1C2BCE3B00CF2F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B069C7A1C2BCE3B00CF2F99 /* Assets.xcassets */; };
+		0B069C7E1C2BCE3B00CF2F99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B069C7C1C2BCE3B00CF2F99 /* LaunchScreen.storyboard */; };
+		0B069C891C2BCE3B00CF2F99 /* VietEDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B069C881C2BCE3B00CF2F99 /* VietEDTests.swift */; };
+		0B069C941C2BCE3B00CF2F99 /* VietEDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B069C931C2BCE3B00CF2F99 /* VietEDUITests.swift */; };
+		0B069CE91C2BDBFA00CF2F99 /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B069CE81C2BDBFA00CF2F99 /* Macro.swift */; };
+		0B069CEC1C2BE07700CF2F99 /* VEDBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B069CEB1C2BE07700CF2F99 /* VEDBaseViewController.swift */; };
+		0B069CF31C2BE36500CF2F99 /* VEDBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B069CF21C2BE36500CF2F99 /* VEDBaseTableViewController.swift */; };
+		0B069CF51C2BE3EA00CF2F99 /* VEDSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B069CF41C2BE3EA00CF2F99 /* VEDSignInViewController.swift */; };
+		0B069CF81C2BE61300CF2F99 /* VEDGlobalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B069CF71C2BE61300CF2F99 /* VEDGlobalButton.swift */; };
+		0B069CFA1C2BE73D00CF2F99 /* VEDAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B069CF91C2BE73D00CF2F99 /* VEDAPIClient.swift */; };
+		0B2DD9DA1C30D77000B2980D /* VEDForgetPassWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD9D91C30D77000B2980D /* VEDForgetPassWordViewController.swift */; };
+		0B2DD9DC1C30D8B800B2980D /* VEDMainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD9DB1C30D8B800B2980D /* VEDMainMenuViewController.swift */; };
+		0B2DD9E41C30E65200B2980D /* VEDMyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD9E31C30E65200B2980D /* VEDMyPageViewController.swift */; };
+		0B2DD9E61C30E89500B2980D /* VEDPayMentWithCardPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD9E51C30E89500B2980D /* VEDPayMentWithCardPhoneViewController.swift */; };
+		0B2DD9E81C30E8BA00B2980D /* VEDPayMentByBankTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD9E71C30E8BA00B2980D /* VEDPayMentByBankTransferViewController.swift */; };
+		0B2DD9EA1C30E8F300B2980D /* VEDPayMentWithPurcharseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD9E91C30E8F300B2980D /* VEDPayMentWithPurcharseViewController.swift */; };
+		0B2DD9EC1C30E9B100B2980D /* VEDAllCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD9EB1C30E9B100B2980D /* VEDAllCourseViewController.swift */; };
+		0B2DD9F11C30EAAA00B2980D /* VEDMyCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD9F01C30EAAA00B2980D /* VEDMyCourseViewController.swift */; };
+		0B2DD9F41C30EB1100B2980D /* VEDPrivateCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD9F31C30EB1100B2980D /* VEDPrivateCourseViewController.swift */; };
+		0B2DD9F71C30EB6B00B2980D /* VEDFavoriteCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD9F61C30EB6B00B2980D /* VEDFavoriteCourseViewController.swift */; };
+		0B2DD9FA1C30EBB000B2980D /* VEDBalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD9F91C30EBB000B2980D /* VEDBalanceViewController.swift */; };
+		0B2DD9FD1C30EBE900B2980D /* VEDSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD9FC1C30EBE900B2980D /* VEDSettingViewController.swift */; };
+		0B2DDA001C30ED9B00B2980D /* VEDCategoryCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DD9FF1C30ED9B00B2980D /* VEDCategoryCourseViewController.swift */; };
+		0B2DDA021C30EE2700B2980D /* VEDCourseOverViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DDA011C30EE2700B2980D /* VEDCourseOverViewViewController.swift */; };
+		0B2DDA041C30EFD100B2980D /* VEDCourseSyllabusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DDA031C30EFD100B2980D /* VEDCourseSyllabusViewController.swift */; };
+		0B2DDA061C30F1AF00B2980D /* VEDRolePlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DDA051C30F1AF00B2980D /* VEDRolePlayViewController.swift */; };
+		0B2DDA081C30F1E300B2980D /* VEDDictationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DDA071C30F1E300B2980D /* VEDDictationsViewController.swift */; };
+		0B2DDA0A1C30F6B200B2980D /* VEDDiscussionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DDA091C30F6B200B2980D /* VEDDiscussionViewController.swift */; };
+		0B2DDA0C1C30F83E00B2980D /* VEDTeacherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DDA0B1C30F83E00B2980D /* VEDTeacherDetailViewController.swift */; };
+		0BAC2E311C4CA44C00043C48 /* VEDAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAC2E301C4CA44C00043C48 /* VEDAlertView.swift */; };
+		0BB941F91C48ECB400C2C35A /* VEDRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB941F81C48ECB400C2C35A /* VEDRefreshView.swift */; };
+		0BBDA1821C45F70200A4F77D /* VEDCustomNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBDA1811C45F70200A4F77D /* VEDCustomNaviViewController.swift */; };
+		0BC88E481C34C70900F1543F /* RageProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC88E471C34C70900F1543F /* RageProducts.swift */; };
+		0BC88E4C1C34E1BE00F1543F /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC88E4B1C34E1BE00F1543F /* IAPHelper.swift */; };
+		0BCAB2151C2D59EA00BB3C56 /* VEDSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCAB2141C2D59EA00BB3C56 /* VEDSignUpViewController.swift */; };
+		0BE116361C46359500E4165B /* VEDCategoryCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE116351C46359500E4165B /* VEDCategoryCourse.swift */; };
+		0BE116381C46367900E4165B /* VEDCourseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE116371C46367900E4165B /* VEDCourseCollectionCell.swift */; };
+		0BE348511C435D3C000558C7 /* VEDPhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE348501C435D3C000558C7 /* VEDPhotoInfo.swift */; };
+		0BE348541C43C1E9000558C7 /* VEDRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE348531C43C1E9000558C7 /* VEDRouter.swift */; };
+		0BE348561C43C521000558C7 /* VEDComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE348551C43C521000558C7 /* VEDComment.swift */; };
+		0BE65AC61C311849009AEB02 /* VEDCourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE65AC41C311849009AEB02 /* VEDCourseTableViewCell.swift */; };
+		0BE65AC71C311849009AEB02 /* VEDCourseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BE65AC51C311849009AEB02 /* VEDCourseTableViewCell.xib */; };
+		0BE65AC91C313264009AEB02 /* VEDItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE65AC81C313264009AEB02 /* VEDItemModel.swift */; };
+		0BE65ACB1C313B48009AEB02 /* VEDPlayVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE65ACA1C313B48009AEB02 /* VEDPlayVideoViewController.swift */; };
+		0BEC2F541C3CC6EC0042E8F9 /* VEDGlobalLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEC2F531C3CC6EC0042E8F9 /* VEDGlobalLabel.swift */; };
+		0BEC2F561C3CC7E60042E8F9 /* VEDGrayStyleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEC2F551C3CC7E60042E8F9 /* VEDGrayStyleTextField.swift */; };
+		0BEC2F581C3CCD920042E8F9 /* VEDGlobalTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEC2F571C3CCD920042E8F9 /* VEDGlobalTextField.swift */; };
+		0BEC2F7A1C3E7B7B0042E8F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BEC2F791C3E7B7B0042E8F9 /* GoogleService-Info.plist */; };
+		8B5E13A4586F5E7316079CCB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE6687EDFF26FD4E6CB5897 /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B069C851C2BCE3B00CF2F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B069C651C2BCE3B00CF2F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B069C6C1C2BCE3B00CF2F99;
+			remoteInfo = VietED;
+		};
+		0B069C901C2BCE3B00CF2F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B069C651C2BCE3B00CF2F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B069C6C1C2BCE3B00CF2F99;
+			remoteInfo = VietED;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B069C6D1C2BCE3B00CF2F99 /* VietED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VietED.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B069C701C2BCE3B00CF2F99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B069C751C2BCE3B00CF2F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B069C781C2BCE3B00CF2F99 /* VietED.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VietED.xcdatamodel; sourceTree = "<group>"; };
+		0B069C7A1C2BCE3B00CF2F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B069C7D1C2BCE3B00CF2F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B069C7F1C2BCE3B00CF2F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		0B069C841C2BCE3B00CF2F99 /* VietEDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VietEDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B069C881C2BCE3B00CF2F99 /* VietEDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VietEDTests.swift; sourceTree = "<group>"; };
+		0B069C8A1C2BCE3B00CF2F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B069C8F1C2BCE3B00CF2F99 /* VietEDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VietEDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B069C931C2BCE3B00CF2F99 /* VietEDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VietEDUITests.swift; sourceTree = "<group>"; };
+		0B069C951C2BCE3B00CF2F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B069CE81C2BDBFA00CF2F99 /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
+		0B069CEB1C2BE07700CF2F99 /* VEDBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDBaseViewController.swift; sourceTree = "<group>"; };
+		0B069CF21C2BE36500CF2F99 /* VEDBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDBaseTableViewController.swift; sourceTree = "<group>"; };
+		0B069CF41C2BE3EA00CF2F99 /* VEDSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDSignInViewController.swift; sourceTree = "<group>"; };
+		0B069CF71C2BE61300CF2F99 /* VEDGlobalButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDGlobalButton.swift; sourceTree = "<group>"; };
+		0B069CF91C2BE73D00CF2F99 /* VEDAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDAPIClient.swift; sourceTree = "<group>"; };
+		0B2DD9D91C30D77000B2980D /* VEDForgetPassWordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDForgetPassWordViewController.swift; sourceTree = "<group>"; };
+		0B2DD9DB1C30D8B800B2980D /* VEDMainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDMainMenuViewController.swift; sourceTree = "<group>"; };
+		0B2DD9E31C30E65200B2980D /* VEDMyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDMyPageViewController.swift; sourceTree = "<group>"; };
+		0B2DD9E51C30E89500B2980D /* VEDPayMentWithCardPhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDPayMentWithCardPhoneViewController.swift; sourceTree = "<group>"; };
+		0B2DD9E71C30E8BA00B2980D /* VEDPayMentByBankTransferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDPayMentByBankTransferViewController.swift; sourceTree = "<group>"; };
+		0B2DD9E91C30E8F300B2980D /* VEDPayMentWithPurcharseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDPayMentWithPurcharseViewController.swift; sourceTree = "<group>"; };
+		0B2DD9EB1C30E9B100B2980D /* VEDAllCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDAllCourseViewController.swift; sourceTree = "<group>"; };
+		0B2DD9F01C30EAAA00B2980D /* VEDMyCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDMyCourseViewController.swift; sourceTree = "<group>"; };
+		0B2DD9F31C30EB1100B2980D /* VEDPrivateCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDPrivateCourseViewController.swift; sourceTree = "<group>"; };
+		0B2DD9F61C30EB6B00B2980D /* VEDFavoriteCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDFavoriteCourseViewController.swift; sourceTree = "<group>"; };
+		0B2DD9F91C30EBB000B2980D /* VEDBalanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDBalanceViewController.swift; sourceTree = "<group>"; };
+		0B2DD9FC1C30EBE900B2980D /* VEDSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDSettingViewController.swift; sourceTree = "<group>"; };
+		0B2DD9FF1C30ED9B00B2980D /* VEDCategoryCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDCategoryCourseViewController.swift; sourceTree = "<group>"; };
+		0B2DDA011C30EE2700B2980D /* VEDCourseOverViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDCourseOverViewViewController.swift; sourceTree = "<group>"; };
+		0B2DDA031C30EFD100B2980D /* VEDCourseSyllabusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDCourseSyllabusViewController.swift; sourceTree = "<group>"; };
+		0B2DDA051C30F1AF00B2980D /* VEDRolePlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDRolePlayViewController.swift; sourceTree = "<group>"; };
+		0B2DDA071C30F1E300B2980D /* VEDDictationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDDictationsViewController.swift; sourceTree = "<group>"; };
+		0B2DDA091C30F6B200B2980D /* VEDDiscussionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDDiscussionViewController.swift; sourceTree = "<group>"; };
+		0B2DDA0B1C30F83E00B2980D /* VEDTeacherDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDTeacherDetailViewController.swift; sourceTree = "<group>"; };
+		0BAC2E301C4CA44C00043C48 /* VEDAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDAlertView.swift; sourceTree = "<group>"; };
+		0BB941F81C48ECB400C2C35A /* VEDRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDRefreshView.swift; sourceTree = "<group>"; };
+		0BBDA1811C45F70200A4F77D /* VEDCustomNaviViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDCustomNaviViewController.swift; sourceTree = "<group>"; };
+		0BC88E471C34C70900F1543F /* RageProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RageProducts.swift; sourceTree = "<group>"; };
+		0BC88E4B1C34E1BE00F1543F /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		0BCAB2141C2D59EA00BB3C56 /* VEDSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDSignUpViewController.swift; sourceTree = "<group>"; };
+		0BE116351C46359500E4165B /* VEDCategoryCourse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VEDCategoryCourse.swift; path = ../../Controllers/AllCourse/VEDCategoryCourse.swift; sourceTree = "<group>"; };
+		0BE116371C46367900E4165B /* VEDCourseCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VEDCourseCollectionCell.swift; path = ../../Controllers/AllCourse/VEDCourseCollectionCell.swift; sourceTree = "<group>"; };
+		0BE348501C435D3C000558C7 /* VEDPhotoInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDPhotoInfo.swift; sourceTree = "<group>"; };
+		0BE348531C43C1E9000558C7 /* VEDRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDRouter.swift; sourceTree = "<group>"; };
+		0BE348551C43C521000558C7 /* VEDComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDComment.swift; sourceTree = "<group>"; };
+		0BE65AC41C311849009AEB02 /* VEDCourseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDCourseTableViewCell.swift; sourceTree = "<group>"; };
+		0BE65AC51C311849009AEB02 /* VEDCourseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VEDCourseTableViewCell.xib; sourceTree = "<group>"; };
+		0BE65AC81C313264009AEB02 /* VEDItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDItemModel.swift; sourceTree = "<group>"; };
+		0BE65ACA1C313B48009AEB02 /* VEDPlayVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDPlayVideoViewController.swift; sourceTree = "<group>"; };
+		0BEC2F531C3CC6EC0042E8F9 /* VEDGlobalLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDGlobalLabel.swift; sourceTree = "<group>"; };
+		0BEC2F551C3CC7E60042E8F9 /* VEDGrayStyleTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDGrayStyleTextField.swift; sourceTree = "<group>"; };
+		0BEC2F571C3CCD920042E8F9 /* VEDGlobalTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEDGlobalTextField.swift; sourceTree = "<group>"; };
+		0BEC2F791C3E7B7B0042E8F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0BEC2F7B1C3E7E360042E8F9 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		0CF6DA8A8F80B7C2E879BF5F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9DE6687EDFF26FD4E6CB5897 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD5F90BA100D23076F498FA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B069C6A1C2BCE3B00CF2F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5E13A4586F5E7316079CCB /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B069C811C2BCE3B00CF2F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B069C8C1C2BCE3B00CF2F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01BB97223A0863E643D13DF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DE6687EDFF26FD4E6CB5897 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B069C641C2BCE3B00CF2F99 = {
+			isa = PBXGroup;
+			children = (
+				0B069C6F1C2BCE3B00CF2F99 /* VietED */,
+				0B069C871C2BCE3B00CF2F99 /* VietEDTests */,
+				0B069C921C2BCE3B00CF2F99 /* VietEDUITests */,
+				0B069C6E1C2BCE3B00CF2F99 /* Products */,
+				EBDDA15D9245D428F071593E /* Pods */,
+				01BB97223A0863E643D13DF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B069C6E1C2BCE3B00CF2F99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B069C6D1C2BCE3B00CF2F99 /* VietED.app */,
+				0B069C841C2BCE3B00CF2F99 /* VietEDTests.xctest */,
+				0B069C8F1C2BCE3B00CF2F99 /* VietEDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B069C6F1C2BCE3B00CF2F99 /* VietED */ = {
+			isa = PBXGroup;
+			children = (
+				0B069C701C2BCE3B00CF2F99 /* AppDelegate.swift */,
+				0B069C741C2BCE3B00CF2F99 /* Main.storyboard */,
+				0B069CE41C2BD92000CF2F99 /* Helpers */,
+				0B069CDF1C2BD82E00CF2F99 /* Models */,
+				0B069CE21C2BD8C300CF2F99 /* Controllers */,
+				0B069CE01C2BD85C00CF2F99 /* Views */,
+				0B069CDE1C2BD7ED00CF2F99 /* Common */,
+				0B069CE31C2BD8F400CF2F99 /* SupportingFiles */,
+				0B069C7A1C2BCE3B00CF2F99 /* Assets.xcassets */,
+				0BEC2F7B1C3E7E360042E8F9 /* Bridging-Header.h */,
+			);
+			path = VietED;
+			sourceTree = "<group>";
+		};
+		0B069C871C2BCE3B00CF2F99 /* VietEDTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B069C881C2BCE3B00CF2F99 /* VietEDTests.swift */,
+				0B069C8A1C2BCE3B00CF2F99 /* Info.plist */,
+			);
+			path = VietEDTests;
+			sourceTree = "<group>";
+		};
+		0B069C921C2BCE3B00CF2F99 /* VietEDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B069C931C2BCE3B00CF2F99 /* VietEDUITests.swift */,
+				0B069C951C2BCE3B00CF2F99 /* Info.plist */,
+			);
+			path = VietEDUITests;
+			sourceTree = "<group>";
+		};
+		0B069CDE1C2BD7ED00CF2F99 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0B069CE71C2BDBC200CF2F99 /* Utils */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0B069CDF1C2BD82E00CF2F99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0B069CE61C2BDAAD00CF2F99 /* API */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0B069CE01C2BD85C00CF2F99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0BE65AC31C3117FC009AEB02 /* CourseView */,
+				0B069CF61C2BE5D400CF2F99 /* Global */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0B069CE21C2BD8C300CF2F99 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B069CEA1C2BE01500CF2F99 /* BaseControllers */,
+				0BCAB2001C2D52FA00BB3C56 /* SingUp */,
+				0B069CEF1C2BE0B700CF2F99 /* SignIn */,
+				0BCAB2131C2D599700BB3C56 /* MainMenu */,
+				0BCAB2011C2D533700BB3C56 /* Mypage */,
+				0BCAB2021C2D538400BB3C56 /* AllCourse */,
+				0B2DD9EF1C30EA8B00B2980D /* MyCourse */,
+				0B2DD9F21C30EAE900B2980D /* PrivateCourse */,
+				0B2DD9F51C30EB3A00B2980D /* FavoriteCourse */,
+				0B2DD9F81C30EB8500B2980D /* Blance */,
+				0B2DD9FB1C30EBC600B2980D /* Settings */,
+				0BCAB2111C2D58B600BB3C56 /* Dictation */,
+				0B2DD9FE1C30ED3E00B2980D /* CategoryFilterCourse */,
+				0BCAB2101C2D589000BB3C56 /* Roleplay */,
+				0BCAB20D1C2D580B00BB3C56 /* Practice */,
+				0BCAB20B1C2D574A00BB3C56 /* PlayVideo */,
+				0BCAB2091C2D56CF00BB3C56 /* Discussion */,
+				0BCAB2061C2D55C700BB3C56 /* CourseSyllabus */,
+				0BCAB2051C2D556200BB3C56 /* Teacher */,
+				0BCAB2031C2D53A800BB3C56 /* CourseOverview */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0B069CE31C2BD8F400CF2F99 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0B069C7F1C2BCE3B00CF2F99 /* Info.plist */,
+				0BEC2F791C3E7B7B0042E8F9 /* GoogleService-Info.plist */,
+				0B069C771C2BCE3B00CF2F99 /* VietED.xcdatamodeld */,
+				0B069C7C1C2BCE3B00CF2F99 /* LaunchScreen.storyboard */,
+				0B069CE51C2BD96F00CF2F99 /* Localization */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		0B069CE41C2BD92000CF2F99 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0BEC2F641C3D00950042E8F9 /* WebServices */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0B069CE51C2BD96F00CF2F99 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		0B069CE61C2BDAAD00CF2F99 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0BE65AC81C313264009AEB02 /* VEDItemModel.swift */,
+				0BE348501C435D3C000558C7 /* VEDPhotoInfo.swift */,
+				0BE348551C43C521000558C7 /* VEDComment.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		0B069CE71C2BDBC200CF2F99 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0B069CE81C2BDBFA00CF2F99 /* Macro.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0B069CEA1C2BE01500CF2F99 /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B069CEB1C2BE07700CF2F99 /* VEDBaseViewController.swift */,
+				0B069CF21C2BE36500CF2F99 /* VEDBaseTableViewController.swift */,
+				0BBDA1811C45F70200A4F77D /* VEDCustomNaviViewController.swift */,
+			);
+			path = BaseControllers;
+			sourceTree = "<group>";
+		};
+		0B069CEF1C2BE0B700CF2F99 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				0B069CF41C2BE3EA00CF2F99 /* VEDSignInViewController.swift */,
+				0B2DD9D91C30D77000B2980D /* VEDForgetPassWordViewController.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		0B069CF61C2BE5D400CF2F99 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				0B069CF71C2BE61300CF2F99 /* VEDGlobalButton.swift */,
+				0BEC2F531C3CC6EC0042E8F9 /* VEDGlobalLabel.swift */,
+				0BEC2F571C3CCD920042E8F9 /* VEDGlobalTextField.swift */,
+				0BEC2F551C3CC7E60042E8F9 /* VEDGrayStyleTextField.swift */,
+				0BB941F81C48ECB400C2C35A /* VEDRefreshView.swift */,
+				0BAC2E301C4CA44C00043C48 /* VEDAlertView.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		0B2DD9EF1C30EA8B00B2980D /* MyCourse */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DD9F01C30EAAA00B2980D /* VEDMyCourseViewController.swift */,
+			);
+			path = MyCourse;
+			sourceTree = "<group>";
+		};
+		0B2DD9F21C30EAE900B2980D /* PrivateCourse */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DD9F31C30EB1100B2980D /* VEDPrivateCourseViewController.swift */,
+			);
+			path = PrivateCourse;
+			sourceTree = "<group>";
+		};
+		0B2DD9F51C30EB3A00B2980D /* FavoriteCourse */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DD9F61C30EB6B00B2980D /* VEDFavoriteCourseViewController.swift */,
+			);
+			path = FavoriteCourse;
+			sourceTree = "<group>";
+		};
+		0B2DD9F81C30EB8500B2980D /* Blance */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DD9F91C30EBB000B2980D /* VEDBalanceViewController.swift */,
+			);
+			path = Blance;
+			sourceTree = "<group>";
+		};
+		0B2DD9FB1C30EBC600B2980D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DD9FC1C30EBE900B2980D /* VEDSettingViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		0B2DD9FE1C30ED3E00B2980D /* CategoryFilterCourse */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DD9FF1C30ED9B00B2980D /* VEDCategoryCourseViewController.swift */,
+			);
+			path = CategoryFilterCourse;
+			sourceTree = "<group>";
+		};
+		0BCAB2001C2D52FA00BB3C56 /* SingUp */ = {
+			isa = PBXGroup;
+			children = (
+				0BCAB2141C2D59EA00BB3C56 /* VEDSignUpViewController.swift */,
+			);
+			path = SingUp;
+			sourceTree = "<group>";
+		};
+		0BCAB2011C2D533700BB3C56 /* Mypage */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DD9E31C30E65200B2980D /* VEDMyPageViewController.swift */,
+				0B2DD9E51C30E89500B2980D /* VEDPayMentWithCardPhoneViewController.swift */,
+				0B2DD9E71C30E8BA00B2980D /* VEDPayMentByBankTransferViewController.swift */,
+				0B2DD9E91C30E8F300B2980D /* VEDPayMentWithPurcharseViewController.swift */,
+				0BC88E4B1C34E1BE00F1543F /* IAPHelper.swift */,
+				0BC88E471C34C70900F1543F /* RageProducts.swift */,
+			);
+			path = Mypage;
+			sourceTree = "<group>";
+		};
+		0BCAB2021C2D538400BB3C56 /* AllCourse */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DD9EB1C30E9B100B2980D /* VEDAllCourseViewController.swift */,
+			);
+			path = AllCourse;
+			sourceTree = "<group>";
+		};
+		0BCAB2031C2D53A800BB3C56 /* CourseOverview */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DDA011C30EE2700B2980D /* VEDCourseOverViewViewController.swift */,
+			);
+			path = CourseOverview;
+			sourceTree = "<group>";
+		};
+		0BCAB2051C2D556200BB3C56 /* Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DDA0B1C30F83E00B2980D /* VEDTeacherDetailViewController.swift */,
+			);
+			path = Teacher;
+			sourceTree = "<group>";
+		};
+		0BCAB2061C2D55C700BB3C56 /* CourseSyllabus */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DDA031C30EFD100B2980D /* VEDCourseSyllabusViewController.swift */,
+			);
+			path = CourseSyllabus;
+			sourceTree = "<group>";
+		};
+		0BCAB2091C2D56CF00BB3C56 /* Discussion */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DDA091C30F6B200B2980D /* VEDDiscussionViewController.swift */,
+			);
+			path = Discussion;
+			sourceTree = "<group>";
+		};
+		0BCAB20B1C2D574A00BB3C56 /* PlayVideo */ = {
+			isa = PBXGroup;
+			children = (
+				0BE65ACA1C313B48009AEB02 /* VEDPlayVideoViewController.swift */,
+			);
+			path = PlayVideo;
+			sourceTree = "<group>";
+		};
+		0BCAB20D1C2D580B00BB3C56 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		0BCAB2101C2D589000BB3C56 /* Roleplay */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DDA051C30F1AF00B2980D /* VEDRolePlayViewController.swift */,
+			);
+			path = Roleplay;
+			sourceTree = "<group>";
+		};
+		0BCAB2111C2D58B600BB3C56 /* Dictation */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DDA071C30F1E300B2980D /* VEDDictationsViewController.swift */,
+			);
+			path = Dictation;
+			sourceTree = "<group>";
+		};
+		0BCAB2131C2D599700BB3C56 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DD9DB1C30D8B800B2980D /* VEDMainMenuViewController.swift */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		0BE65AC31C3117FC009AEB02 /* CourseView */ = {
+			isa = PBXGroup;
+			children = (
+				0BE116351C46359500E4165B /* VEDCategoryCourse.swift */,
+				0BE116371C46367900E4165B /* VEDCourseCollectionCell.swift */,
+				0BE65AC41C311849009AEB02 /* VEDCourseTableViewCell.swift */,
+				0BE65AC51C311849009AEB02 /* VEDCourseTableViewCell.xib */,
+			);
+			path = CourseView;
+			sourceTree = "<group>";
+		};
+		0BEC2F641C3D00950042E8F9 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				0B069CF91C2BE73D00CF2F99 /* VEDAPIClient.swift */,
+				0BE348531C43C1E9000558C7 /* VEDRouter.swift */,
+			);
+			name = WebServices;
+			sourceTree = "<group>";
+		};
+		EBDDA15D9245D428F071593E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFD5F90BA100D23076F498FA /* Pods.debug.xcconfig */,
+				0CF6DA8A8F80B7C2E879BF5F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B069C6C1C2BCE3B00CF2F99 /* VietED */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B069C981C2BCE3B00CF2F99 /* Build configuration list for PBXNativeTarget "VietED" */;
+			buildPhases = (
+				10170EA4BB8808F241105483 /* Check Pods Manifest.lock */,
+				0B069C691C2BCE3B00CF2F99 /* Sources */,
+				0B069C6A1C2BCE3B00CF2F99 /* Frameworks */,
+				0B069C6B1C2BCE3B00CF2F99 /* Resources */,
+				830E0D0D5D869E9386BB82CF /* Embed Pods Frameworks */,
+				F856D21DCE67C2075A424A3C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VietED;
+			productName = VietED;
+			productReference = 0B069C6D1C2BCE3B00CF2F99 /* VietED.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B069C831C2BCE3B00CF2F99 /* VietEDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B069C9B1C2BCE3B00CF2F99 /* Build configuration list for PBXNativeTarget "VietEDTests" */;
+			buildPhases = (
+				0B069C801C2BCE3B00CF2F99 /* Sources */,
+				0B069C811C2BCE3B00CF2F99 /* Frameworks */,
+				0B069C821C2BCE3B00CF2F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B069C861C2BCE3B00CF2F99 /* PBXTargetDependency */,
+			);
+			name = VietEDTests;
+			productName = VietEDTests;
+			productReference = 0B069C841C2BCE3B00CF2F99 /* VietEDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B069C8E1C2BCE3B00CF2F99 /* VietEDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B069C9E1C2BCE3B00CF2F99 /* Build configuration list for PBXNativeTarget "VietEDUITests" */;
+			buildPhases = (
+				0B069C8B1C2BCE3B00CF2F99 /* Sources */,
+				0B069C8C1C2BCE3B00CF2F99 /* Frameworks */,
+				0B069C8D1C2BCE3B00CF2F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B069C911C2BCE3B00CF2F99 /* PBXTargetDependency */,
+			);
+			name = VietEDUITests;
+			productName = VietEDUITests;
+			productReference = 0B069C8F1C2BCE3B00CF2F99 /* VietEDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B069C651C2BCE3B00CF2F99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VED;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Phung Long";
+				TargetAttributes = {
+					0B069C6C1C2BCE3B00CF2F99 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					0B069C831C2BCE3B00CF2F99 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 0B069C6C1C2BCE3B00CF2F99;
+					};
+					0B069C8E1C2BCE3B00CF2F99 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 0B069C6C1C2BCE3B00CF2F99;
+					};
+				};
+			};
+			buildConfigurationList = 0B069C681C2BCE3B00CF2F99 /* Build configuration list for PBXProject "VietED" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B069C641C2BCE3B00CF2F99;
+			productRefGroup = 0B069C6E1C2BCE3B00CF2F99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B069C6C1C2BCE3B00CF2F99 /* VietED */,
+				0B069C831C2BCE3B00CF2F99 /* VietEDTests */,
+				0B069C8E1C2BCE3B00CF2F99 /* VietEDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B069C6B1C2BCE3B00CF2F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B069C7E1C2BCE3B00CF2F99 /* LaunchScreen.storyboard in Resources */,
+				0B069C7B1C2BCE3B00CF2F99 /* Assets.xcassets in Resources */,
+				0BEC2F7A1C3E7B7B0042E8F9 /* GoogleService-Info.plist in Resources */,
+				0BE65AC71C311849009AEB02 /* VEDCourseTableViewCell.xib in Resources */,
+				0B069C761C2BCE3B00CF2F99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B069C821C2BCE3B00CF2F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B069C8D1C2BCE3B00CF2F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10170EA4BB8808F241105483 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		830E0D0D5D869E9386BB82CF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F856D21DCE67C2075A424A3C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B069C691C2BCE3B00CF2F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC88E481C34C70900F1543F /* RageProducts.swift in Sources */,
+				0BBDA1821C45F70200A4F77D /* VEDCustomNaviViewController.swift in Sources */,
+				0BEC2F541C3CC6EC0042E8F9 /* VEDGlobalLabel.swift in Sources */,
+				0B2DD9DA1C30D77000B2980D /* VEDForgetPassWordViewController.swift in Sources */,
+				0BCAB2151C2D59EA00BB3C56 /* VEDSignUpViewController.swift in Sources */,
+				0BE65ACB1C313B48009AEB02 /* VEDPlayVideoViewController.swift in Sources */,
+				0B069CE91C2BDBFA00CF2F99 /* Macro.swift in Sources */,
+				0BE116361C46359500E4165B /* VEDCategoryCourse.swift in Sources */,
+				0B069CF51C2BE3EA00CF2F99 /* VEDSignInViewController.swift in Sources */,
+				0B069CEC1C2BE07700CF2F99 /* VEDBaseViewController.swift in Sources */,
+				0BE348511C435D3C000558C7 /* VEDPhotoInfo.swift in Sources */,
+				0B069CF81C2BE61300CF2F99 /* VEDGlobalButton.swift in Sources */,
+				0B2DD9EC1C30E9B100B2980D /* VEDAllCourseViewController.swift in Sources */,
+				0B069CF31C2BE36500CF2F99 /* VEDBaseTableViewController.swift in Sources */,
+				0B2DDA081C30F1E300B2980D /* VEDDictationsViewController.swift in Sources */,
+				0BE348561C43C521000558C7 /* VEDComment.swift in Sources */,
+				0B2DD9EA1C30E8F300B2980D /* VEDPayMentWithPurcharseViewController.swift in Sources */,
+				0BE348541C43C1E9000558C7 /* VEDRouter.swift in Sources */,
+				0B2DD9DC1C30D8B800B2980D /* VEDMainMenuViewController.swift in Sources */,
+				0B069CFA1C2BE73D00CF2F99 /* VEDAPIClient.swift in Sources */,
+				0B2DD9F11C30EAAA00B2980D /* VEDMyCourseViewController.swift in Sources */,
+				0B2DDA061C30F1AF00B2980D /* VEDRolePlayViewController.swift in Sources */,
+				0B2DD9E81C30E8BA00B2980D /* VEDPayMentByBankTransferViewController.swift in Sources */,
+				0B2DD9FA1C30EBB000B2980D /* VEDBalanceViewController.swift in Sources */,
+				0B2DDA041C30EFD100B2980D /* VEDCourseSyllabusViewController.swift in Sources */,
+				0B2DDA021C30EE2700B2980D /* VEDCourseOverViewViewController.swift in Sources */,
+				0BEC2F561C3CC7E60042E8F9 /* VEDGrayStyleTextField.swift in Sources */,
+				0B2DDA0A1C30F6B200B2980D /* VEDDiscussionViewController.swift in Sources */,
+				0B2DD9E61C30E89500B2980D /* VEDPayMentWithCardPhoneViewController.swift in Sources */,
+				0BE116381C46367900E4165B /* VEDCourseCollectionCell.swift in Sources */,
+				0BC88E4C1C34E1BE00F1543F /* IAPHelper.swift in Sources */,
+				0BAC2E311C4CA44C00043C48 /* VEDAlertView.swift in Sources */,
+				0BE65AC61C311849009AEB02 /* VEDCourseTableViewCell.swift in Sources */,
+				0B2DDA0C1C30F83E00B2980D /* VEDTeacherDetailViewController.swift in Sources */,
+				0B2DD9E41C30E65200B2980D /* VEDMyPageViewController.swift in Sources */,
+				0BB941F91C48ECB400C2C35A /* VEDRefreshView.swift in Sources */,
+				0BEC2F581C3CCD920042E8F9 /* VEDGlobalTextField.swift in Sources */,
+				0B069C791C2BCE3B00CF2F99 /* VietED.xcdatamodeld in Sources */,
+				0BE65AC91C313264009AEB02 /* VEDItemModel.swift in Sources */,
+				0B2DD9F71C30EB6B00B2980D /* VEDFavoriteCourseViewController.swift in Sources */,
+				0B069C711C2BCE3B00CF2F99 /* AppDelegate.swift in Sources */,
+				0B2DD9F41C30EB1100B2980D /* VEDPrivateCourseViewController.swift in Sources */,
+				0B2DD9FD1C30EBE900B2980D /* VEDSettingViewController.swift in Sources */,
+				0B2DDA001C30ED9B00B2980D /* VEDCategoryCourseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B069C801C2BCE3B00CF2F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B069C891C2BCE3B00CF2F99 /* VietEDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B069C8B1C2BCE3B00CF2F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B069C941C2BCE3B00CF2F99 /* VietEDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B069C861C2BCE3B00CF2F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B069C6C1C2BCE3B00CF2F99 /* VietED */;
+			targetProxy = 0B069C851C2BCE3B00CF2F99 /* PBXContainerItemProxy */;
+		};
+		0B069C911C2BCE3B00CF2F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B069C6C1C2BCE3B00CF2F99 /* VietED */;
+			targetProxy = 0B069C901C2BCE3B00CF2F99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B069C741C2BCE3B00CF2F99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B069C751C2BCE3B00CF2F99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B069C7C1C2BCE3B00CF2F99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B069C7D1C2BCE3B00CF2F99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B069C961C2BCE3B00CF2F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B069C971C2BCE3B00CF2F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B069C991C2BCE3B00CF2F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD5F90BA100D23076F498FA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: NTQ Solution (UD63HTF9NX)";
+				INFOPLIST_FILE = VietED/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NTQ-Solution.VietED";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "21f60e52-ac7a-403d-b081-ec83c87dd2df";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/VietED/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		0B069C9A1C2BCE3B00CF2F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CF6DA8A8F80B7C2E879BF5F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VietED/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NTQ-Solution.VietED";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "21f60e52-ac7a-403d-b081-ec83c87dd2df";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/VietED/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		0B069C9C1C2BCE3B00CF2F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VietEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NTQ-Solution.VietEDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VietED.app/VietED";
+			};
+			name = Debug;
+		};
+		0B069C9D1C2BCE3B00CF2F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VietEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NTQ-Solution.VietEDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VietED.app/VietED";
+			};
+			name = Release;
+		};
+		0B069C9F1C2BCE3B00CF2F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VietEDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NTQ-Solution.VietEDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VietED;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0B069CA01C2BCE3B00CF2F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VietEDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NTQ-Solution.VietEDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VietED;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B069C681C2BCE3B00CF2F99 /* Build configuration list for PBXProject "VietED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B069C961C2BCE3B00CF2F99 /* Debug */,
+				0B069C971C2BCE3B00CF2F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B069C981C2BCE3B00CF2F99 /* Build configuration list for PBXNativeTarget "VietED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B069C991C2BCE3B00CF2F99 /* Debug */,
+				0B069C9A1C2BCE3B00CF2F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B069C9B1C2BCE3B00CF2F99 /* Build configuration list for PBXNativeTarget "VietEDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B069C9C1C2BCE3B00CF2F99 /* Debug */,
+				0B069C9D1C2BCE3B00CF2F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B069C9E1C2BCE3B00CF2F99 /* Build configuration list for PBXNativeTarget "VietEDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B069C9F1C2BCE3B00CF2F99 /* Debug */,
+				0B069CA01C2BCE3B00CF2F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0B069C771C2BCE3B00CF2F99 /* VietED.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0B069C781C2BCE3B00CF2F99 /* VietED.xcdatamodel */,
+			);
+			currentVersion = 0B069C781C2BCE3B00CF2F99 /* VietED.xcdatamodel */;
+			name = VietED.xcdatamodeld;
+			path = ../VietED.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0B069C651C2BCE3B00CF2F99 /* Project object */;
+}
